@@ -20,16 +20,16 @@ const AboutCard = ({ title, description }) => (
 const About = () => {
   const skills = [
     {
-      title: "Frontend Developer",
-      description: "I am proficient in React.js and JavaScript, enabling me to create dynamic and responsive user interfaces. My experience with component-based architecture allows for seamless updates and a highly interactive user experience."
+      title: "ML Engineer",
+      description: "I am proficient in Python and machine learning frameworks such as TensorFlow and PyTorch, enabling me to develop and deploy efficient and scalable machine learning models. My experience with model development and optimization ensures seamless integration and high performance across various applications."
     },
     {
-      title: "Database Developer",
-      description: "Skilled in managing various databases, including MySQL and PostgreSQL for structured data storage, and MongoDB for handling unstructured data. This diverse skill set allows me to implement flexible and efficient data storage solutions."
+      title: "Data Scientist",
+      description: "I am proficient in Python, R, and SQL, enabling me to analyze and interpret complex datasets effectively. My experience with machine learning models and data visualization tools allows for accurate predictions and insightful data-driven decision-making, ensuring a seamless and impactful analytical process."
     },
     {
-      title: "Backend Developer",
-      description: "Strong background in JavaScript and Python, utilizing NestJS to develop robust APIs and efficient server-side logic. This experience ensures that applications are scalable and maintainable, allowing for easy integration of new features."
+      title: "Data Analyst",
+      description: "I am proficient in data analysis and visualization using tools like Python, SQL, and Power BI, enabling me to derive actionable insights from complex datasets. My experience with data-driven decision-making ensures accurate analysis and reporting for business growth and efficiency."
     }
   ];
 

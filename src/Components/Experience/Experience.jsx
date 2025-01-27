@@ -2,40 +2,41 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
 import { SectionTitle } from '../common/SectionTitle';
-import { FaHtml5, FaCss3, FaReact, FaJs, FaFigma } from 'react-icons/fa';
-import { SiMongodb } from 'react-icons/si';
-import droboLogo from '../../assets/images/drobo.jpg'; // Import the image
-import pearlLogo from '../../assets/images/pearl.jpg'; // Import the image
+import { SiTensorflow, SiPython, SiMysql } from 'react-icons/si';
+import { AiOutlineRobot } from 'react-icons/ai';
+
+
+
+import droboLogo from '../../assets/images/byjus.png'; // Import the image
+import pearlLogo from '../../assets/images/varcon.png'; // Import the image
 
 const Experience = () => {
   const skills = [
-    { Icon: FaHtml5, color: "#E34F26" },
-    { Icon: FaCss3, color: "#1572B6" },
-    { Icon: FaReact, color: "#61DAFB" },
-    { Icon: FaJs, color: "#F7DF1E" },
-    { Icon: FaFigma, color: "#F24E1E" },
-    { Icon: SiMongodb, color: "#47A248" },
+    { Icon: AiOutlineRobot, color: "#E34F26" },
+    { Icon: SiTensorflow, color: "#1572B6" },
+    { Icon: SiPython, color: "#61DAFB" },
+    { Icon: SiMysql, color: "#F24E1E" },
   ];
 
   const experiences = [
     {
       logo: droboLogo, // Use the imported image
-      company: "DrobospaceX Automation Pvt. Ltd.",
-      position: "Software Engineer Intern",
-      duration: "Feb 2024 - Mar 2024",
+      company: "Think and Learn Pvt. Ltd.",
+      position: "Associate ML Engineer",
+      duration: "June 2023 - December 2023",
       responsibilities: [
-        "Worked as a Software Developer Intern",
-        "Python Developer"
+        " Developed and deployed machine learning models to enhance personalized learning experiences and optimize content delivery",
+        " Conducted data preprocessing and feature engineering on large datasets to improve model performance and accuracy."
       ]
     },
     {
       logo: pearlLogo, // Use the imported image
-      company: "Pearl Thoughts",
-      position: "Software Developer Intern",
+      company: "Varcons Technology Pvt. Ltd.",
+      position: "Full Stack Web Development Intern",
       duration: "Sept 2024 - Oct 2024",
       responsibilities: [
-        "Worked as a Software Developer Intern",
-        "Jr. Software Developer (NestJS, PostgreSQL)"
+        " During the internship, they demonstrated good design skills and maintained a self-motivated attitude towards learning new things.",
+        " I worked on a project involving the creation of a template for a gym using HTML,CSS,Java-script."
       ]
     }
   ];

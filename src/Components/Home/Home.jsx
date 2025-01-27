@@ -1,13 +1,12 @@
 // src/components/home/Home.jsx
 import { useTypewriter } from '../../hooks/useTypewriter';
 import { Button } from '../common/Button';
-import profileImage from '../../assets/images/portfolio1st.jpeg'; // Import the image
+import profileImage from '../../assets/images/my.jpg'; // Import the image
 
 const Home = () => {
   const typedText = useTypewriter([
-    "Hi, I'm Viramakali",
-    "aka, Vignesh",
-    "I'm a Tech Enthusiast"
+    "Hi, I'm Manoj R",
+    "I'm a ML Engineer"
   ]);
 
   return (
@@ -17,7 +16,7 @@ const Home = () => {
           {typedText}
         </h1>
         <p className="text-gray-300 text-lg leading-relaxed">
-          Hello! I'm a Software Developer from Karaikudi, Tamil Nadu. With expertise in ReactJS, Python, MySQL, PostgreSQL, and NestJS, I aim to become a top developer and entrepreneur.
+          Hello! I'm a ML Engineer from Bengaluru, Karnataka. With expertise in Python, MySQL, Power BI, Machine learning and Deep learning.
         </p>
         <Button onClick={() => document.getElementById('about').scrollIntoView()} aria-label="Explore My Work">
           Explore My Work
@@ -26,7 +25,7 @@ const Home = () => {
       <div className="mt-16 md:mt-0 md:w-1/2 flex justify-center">
         <img
           src={profileImage}
-          alt="Profile of Viramakali, a software developer"
+          alt="Profile of Manoj R, a ML Engineer"
           className="w-80 h-80 rounded-full object-cover shadow-xl"
         />
       </div>

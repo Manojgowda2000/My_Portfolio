@@ -40,7 +40,7 @@ const ProjectCard = ({
       </div>
 
       {/* Footer */}
-      <div className="px-4 pb-4 pt-0 flex justify-between items-center">        
+      <div className="px-4 pb-4 pt-0 flex justify-between items-center">
         {githubLink && (
           <a
             href={githubLink}
@@ -50,6 +50,17 @@ const ProjectCard = ({
           >
             <GithubIcon className="w-4 h-4" />
             <span>View Code</span>
+          </a>
+        )}
+        {liveLink && (
+          <a
+            href={liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm text-green-600 hover:text-green-800 transition-colors"
+          >
+            <ExternalLink className="w-4 h-4" />
+            <span>Live Demo</span>
           </a>
         )}
       </div>

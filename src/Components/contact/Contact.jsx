@@ -20,18 +20,18 @@ const Contact = () => {
   const contactLinks = [
     {
       Icon: MdOutlineEmail,
-      href: "mailto:vigneshpillai123123@gmail.com",
-      text: "vigneshpillai123123@gmail.com"
+      href: "mailto:manojrgowdamanoj@gmail.com",
+      text: "manojrgowdamanoj@gmail.com"
     },
     {
       Icon: CiLinkedin,
-      href: "https://www.linkedin.com/in/viramakali",
-      text: "linkedin.com/viramakali"
+      href: "https://www.linkedin.com/in/manojr06",
+      text: "LinkedIn"
     },
     {
       Icon: FaGithub,
-      href: "https://github.com/SvickyB",
-      text: "github.com/SvickyB"
+      href: "https://github.com/Manojgowda2000",
+      text: "GitHub"
     }
   ];
 
