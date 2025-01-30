@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         {children}
       </main>
       <footer className="bg-[#1a1f38] text-center py-6 text-gray-400">
-        <p>© {new Date().getFullYear()} Viramakali. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Manoj R. All rights reserved.</p>
       </footer>
     </div>
   );
